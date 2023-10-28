@@ -1,0 +1,50 @@
+body {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: black;
+}
+
+header nav ul li a:hover {
+  border-bottom: 1px solid black;
+}
+span {
+  color: orange;
+}
+
+#top {
+  text-align: center;
+  background-color: gray;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  text-align: center;
+  background-color: orange;
+}
+
+.flex-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  width: 70%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
