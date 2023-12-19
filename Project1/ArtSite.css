@@ -79,7 +79,7 @@ footer{
     height: 200px;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 500px) {
     body{
     width: 100%;
     margin: 0;
@@ -87,5 +87,9 @@ footer{
     header{
         display: flex;
         flex-direction: column;
+    }
+    .Profiles{
+        display: flex;
+        justify-content: center;
     }
 }
