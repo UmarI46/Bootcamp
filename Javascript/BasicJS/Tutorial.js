@@ -20,13 +20,14 @@ let Num=(1)
 let Letter=("1")
 
 //compares these 2 together, doesn't check if they're the same data type
-console.log(Num==Letter)
+console.log(Num===Letter)
 
 //compares like in python
 console.log(Num==Letter)
 
 // && means and
 // || means or 
+// % checks if there's a remiander (returns 1 or 0)
 
 /* The way to setup an elif statement
 if(){
